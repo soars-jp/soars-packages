@@ -106,6 +106,9 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 #### soars-coreパッケージの利用例
 soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/covid19)，[d2j](https://github.com/soars-jp/d2j)がある．
 
+#### soars-coreパッケージのAPI
+soars-coreパッケージのAPIの詳細は[こちら](docs/soars-core/apidocs/index.html)．
+
 ### soars-d2jパッケージ
 
 #### pom.xmlの修正
