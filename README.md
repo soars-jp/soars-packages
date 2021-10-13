@@ -41,9 +41,6 @@ Github-Account-Nameを自分のGitHubアカウント名，Github-Account-Token�
 - [soars-coreパッケージ](https://github.com/soars-jp/soars-packages/packages/984890)  
 soarsライブラリである．
 
-- [soars-d2jパッケージ](https://github.com/soars-jp/soars-packages/packages/984906)  
-d2jライブラリである．このパッケージは，soars-coreパッケージに依存している．
-
 ## パッケージの利用方法
 
 ### soars-coreパッケージ
@@ -92,7 +89,7 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
       <dependency>
         <groupId>jp.soars</groupId>
         <artifactId>soars-core</artifactId>
-        <version>210912_01</version>
+        <version>211013_01</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -104,70 +101,7 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 ```
 
 #### soars-coreパッケージの利用例
-soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/covid19)，[d2j](https://github.com/soars-jp/d2j)がある．
+soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/covid19) がある．
 
-### soars-d2jパッケージ
-
-#### pom.xmlの修正
-
-JDKのバージョンとして11を指定する．
-
-`pom.xmlにおけるJDKのバージョン指定`
-
-```
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>11</java.version>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
-  </properties>
-```
-
-リポジトリ情報を追加する．
-
-`pom.xmlへのリポジトリ情報の追加`
-
-```
-  <repositories>
-    <repository>
-        <id>github</id>
-        <name>GitHub OWNER Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/soars-jp/soars-packages</url>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-  </repositories>
-```
-
-soars-coreパッケージおよびsoars-d2j利用の記述を追加する．具体的には，dependenciesセクションの中に追加する．dependenciesセクションには，元からjunitの記述があることに注意する．
-
-`pom.xmlへのsoars-coreパッケージとsoars-d2jの利用の記述の追加`
-
-```
-  <dependencies>
-    <dependency>
-      <groupId>jp.soars</groupId>
-      <artifactId>soars-core</artifactId>
-      <version>210912_01</version>
-    </dependency>
-    <dependency>
-      <groupId>jp.soars</groupId>
-      <artifactId>soars-d2j</artifactId>
-      <version>210912_01</version>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-```
-
-#### soars-d2jパッケージの利用例
-
-soars-d2jパッケージの利用例として，[COVID19のシミュレーション](https://github.com/soars-jp/covid19)がある．
+## 履歴
+- 2021/10/13 TTimeのticksとして最大1440まで指定できるようにしたsoars-coreパッケージを公開した．
