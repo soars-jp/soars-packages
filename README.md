@@ -104,4 +104,5 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/covid19) がある．
 
 ## 履歴
+- 2021/10/31 スポット・エージェントの動的追加・削除を実装した．
 - 2021/10/13 TTimeのticksとして最大1440まで指定できるようにしたsoars-core-211013_01.jarパッケージを公開した．
