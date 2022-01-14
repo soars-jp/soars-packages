@@ -74,6 +74,7 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/samples) がある．
 
 ## 履歴
+- 2022/01/14 soars-core-211210_01.jarパッケージを公開した．
 - 2021/11/02 READMEを修正した．
 - 2021/11/02 RuleAggregatorのバグ修正と，オブジェクトマネージャーのtypeNameによる操作と機能の追加．
 - 2021/10/31 スポット・エージェントの動的追加・削除を実装した．
