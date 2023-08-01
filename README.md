@@ -56,16 +56,10 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 
 ```
   <dependencies>
-      <dependency>
+    <dependency>
         <groupId>jp.soars</groupId>
         <artifactId>soars-core</artifactId>
-        <version>211013_01</version>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
+        <version>2.0.1</version>
     </dependency>
   </dependencies>
 ```
