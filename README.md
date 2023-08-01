@@ -61,6 +61,12 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
         <artifactId>soars-core</artifactId>
         <version>2.0.1</version>
     </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 ```
 
