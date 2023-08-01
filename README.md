@@ -65,9 +65,11 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 ```
 
 #### soars-coreパッケージの利用例
-soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/samples) がある．
+soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/soars2-samples) がある．
 
 ## 履歴
+- 2023/06/20 ランタイムログにそのステージに登録されているルール数を出力するように追加
+- 2023/06/09 SOARS toolkit ver.2 公開
 - 2022/12/31 レイヤを指定してルール実行できるようにメソッドを追加した。
 - 2022/09/10 ステージを指定してルール実行できるようにメソッドを追加した。
 - 2022/03/10 乗り物モデル内のMapの要素削除でConcurrentModificationExceptionを出すバグを修正した。
