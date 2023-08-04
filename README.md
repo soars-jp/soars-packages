@@ -59,7 +59,7 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
     <dependency>
         <groupId>jp.soars</groupId>
         <artifactId>soars-core</artifactId>
-        <version>2.0.1</version>
+        <version>2.2.1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -74,6 +74,7 @@ soars-coreパッケージ利用の記述を追加する．具体的には，depe
 soars-coreパッケージの利用例として，[soarsサンプル](https://github.com/soars-jp/soars2-samples) がある．
 
 ## 履歴
+- 2023/08/03 ルールログのデバッグ情報出力の仕様変更と，乱数発生器にシャッフル，復元抽出，非復元抽出を追加．
 - 2023/06/20 ランタイムログにそのステージに登録されているルール数を出力するように追加
 - 2023/06/09 SOARS toolkit ver.2 公開
 - 2022/12/31 レイヤを指定してルール実行できるようにメソッドを追加した。
